@@ -4,12 +4,12 @@ import { LocationMarkerIcon } from "@heroicons/react/solid";
 function Footer() {
   return (
     <div className="w-full border-t">
-      <div className="max-w-6xl mx-auto flex flex-col items-center px-8 py-24">
-        <div className="flex items-end">
+      <div className="max-w-6xl mx-auto flex flex-col items-center px-4 md:px-6  py-8 lg:px-8 lg:py-24">
+        <div className="flex items-end self-start md:self-center">
           <LocationMarkerIcon className="w-10 text-biru" />
-          <div className="text-2xl font-bold ml-2">Hat.Travel</div>
+          <div className="text-2xl font-bold ml-2">Hatoby.Travel</div>
         </div>
-        <div className="flex items-center w-full justify-around mt-12 ">
+        <div className="flex flex-col lg:flex-row md:items-center w-full justify-around mt-6 md:flex-row lg:mt-12 ">
           <div className="flex items-center">
             <svg
               className="w-7"
@@ -52,17 +52,12 @@ function Footer() {
           </div>
         </div>
 
-        <p className="text-center mt-12">
+        <p className="text-left md:text-center mt-6 lg:mt-12">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, velit
           laboriosam, unde quidem natus hic corporis repellat ipsam itaque
           perferendis commodi, quod est et maiores ea. Quas nisi id laboriosam
           adipisci, veritatis accusamus libero, quaerat ipsam harum dolorem sint
-          porro. Animi hic, similique deleniti molestiae laboriosam facilis
-          laborum tempora eveniet saepe, reprehenderit, corporis odit! Fuga
-          doloribus et nisi, nostrum rem dicta modi nam minus, quis dolores
-          suscipit? Ipsum numquam commodi tempora officiis assumenda neque fugit
-          animi nam harum maiores reprehenderit cupiditate, dolores corrupti
-          accusantium magni rem
+          porro. Animi hic
         </p>
         <p className="text-center mt-12 font-semibold">
           copyright&copy;Hatoby 2022

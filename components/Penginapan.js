@@ -64,14 +64,14 @@ const hotels = [
 
 function Penginapan() {
   return (
-    <div className="w-full ">
-      <div className="mx-6 bg-[#f3f4f6] rounded-2xl py-16 ">
+    <div className="w-full mt-16">
+      <div className="mx-2 bg-[#f3f4f6] rounded-2xl px-4 py-12 md:mx-4 lg:py-24 lg:mx-6">
         <div className="max-w-6xl mx-auto">
-          <div className="flex items-center justify-between">
-            <h1 className="font-semibold text-3xl text-textitam py-5">
-              Penginapan Ter-Rekomendasi
+          <div className="flex flex-col items-center justify-between lg:flex-row">
+            <h1 className="font-semibold text-2xl md:text-4xl text-textitam">
+              Penginapan Rekomendasi
             </h1>
-            <div className="flex space-x-4">
+            <div className="flex space-x-1 mt-4 lg:mt-0 md:space-x-4">
               {kotas.map((kota) => (
                 <h1
                   className=" text-textp py-2 px-4 rounded-xl hover:text-biru cursor-pointer active:bg-biru active:text-white"
@@ -83,7 +83,7 @@ function Penginapan() {
             </div>
           </div>
 
-          <div className="grid grid-cols-4 gap-8 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
             {hotels.map((hotel) => (
               <div
                 className="bg-white rounded-xl shadow-sm hover:shadow-2xl cursor-pointer"
